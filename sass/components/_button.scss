@@ -13,6 +13,18 @@ a.btn {
     }
   }
 
+  @media screen and (min-width: 745px) {
+    &-dark {
+      border: 0.3rem solid var(--accentDark);
+      color: var(--accentDark);
+
+      &:hover {
+        background-color: var(--accentDark);
+        color: var(--secondaryColor);
+      }
+    }
+  }
+
   &-light {
     border: 0.3rem solid var(--secondaryColor);
     color: var(--secondaryColor);
