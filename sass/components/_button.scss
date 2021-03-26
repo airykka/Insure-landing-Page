@@ -3,7 +3,7 @@ a.btn {
   padding: 1rem 2.5rem;
   text-decoration: none;
 
-  &-dark {
+  &-dark:not(.btn-dark-mobile) {
     border: 0.3rem solid var(--accentDark);
     color: var(--accentDark);
 

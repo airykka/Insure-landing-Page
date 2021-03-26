@@ -163,12 +163,12 @@ a.btn {
   text-decoration: none;
 }
 
-a.btn-dark {
+a.btn-dark:not(.btn-dark-mobile) {
   border: 0.3rem solid var(--accentDark);
   color: var(--accentDark);
 }
 
-a.btn-dark:hover {
+a.btn-dark:not(.btn-dark-mobile):hover {
   background-color: var(--accentDark);
   color: var(--secondaryColor);
 }
