@@ -1,0 +1,111 @@
+body {
+  font-family: "poppins", sans-serif;
+}
+
+.navbar {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  .navlinks {
+    list-style: none;
+    text-align: center;
+  }
+
+  a {
+    color: var(--secondaryColor);
+    text-decoration: none;
+  }
+
+  @media screen and (min-width: 745px) {
+    font-size: 1.5rem;
+
+    a {
+      color: var(--primaryColor);
+    }
+
+    .navlinks > li:last-child > a:hover {
+      color: var(--secondaryColor);
+    }
+  }
+}
+
+.main-heading {
+  font-size: 4.3rem;
+  line-height: 5rem;
+  padding-bottom: 3rem;
+
+  @media screen and (min-width: 745px) {
+    font-size: 5rem;
+  }
+
+  &-light {
+    color: var(--secondaryColor);
+  }
+
+  &-dark {
+    color: var(--primaryColor);
+  }
+
+  &-mini {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    padding-bottom: 0rem;
+
+    @media screen and (min-width: 745px) {
+      font-size: 4rem;
+    }
+  }
+}
+
+.subtext {
+  font-size: 1.8rem;
+  padding-bottom: 3rem;
+
+  @media screen and (min-width: 745px) {
+    font-size: 2rem;
+  }
+
+  &-tiny {
+    font-size: 1.5rem;
+
+    @media screen and (min-width: 745px) {
+      font-size: 1.7rem;
+    }
+  }
+}
+
+.features-title {
+  font-size: 2.5rem;
+  line-height: 5rem;
+  padding: 2rem 0;
+  font-weight: bold;
+
+  @media screen and (min-width: 745px) {
+    font-size: 3rem;
+  }
+}
+
+h6 {
+  font-size: 1.3rem;
+  color: rgba(#2c282f, 0.5);
+  text-transform: uppercase;
+  padding: 2.5rem 0;
+}
+
+.footer ul li {
+  list-style: none;
+  padding: 0.5rem 0;
+
+  a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--primaryColor);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

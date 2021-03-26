@@ -1,0 +1,41 @@
+.features {
+  padding: 10rem 4rem;
+
+  text-align: center;
+
+  .line {
+    margin: 0 auto 5rem auto;
+  }
+
+  &-grid-items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (min-width: 745px) {
+    max-width: 128rem;
+    margin: 0 auto;
+    padding: 25rem 3rem 10rem 3rem;
+    text-align: left;
+
+    .line {
+      margin: 5rem 0;
+    }
+
+    .main-heading {
+      padding-bottom: 10rem;
+    }
+
+    &-grid-items {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+
+      .features-grid-item {
+        margin: 1.5rem;
+
+        width: 33.3%;
+      }
+    }
+  }
+}

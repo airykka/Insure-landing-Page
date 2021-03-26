@@ -1,0 +1,14 @@
+.line {
+  width: 10rem;
+  height: 0.2rem;
+
+  margin-bottom: 5rem;
+
+  &-light {
+    background-color: var(--secondaryColor);
+  }
+
+  &-dark {
+    background-color: var(--primaryColor);
+  }
+}

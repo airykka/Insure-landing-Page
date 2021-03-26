@@ -1,0 +1,52 @@
+.banner {
+  background-color: var(--primaryColor);
+  width: 80%;
+  margin: 0 auto 10rem auto;
+  padding: 10rem 5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  h2 {
+    margin-bottom: 5rem;
+  }
+
+  a {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .pattern {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  @media screen and (min-width: 745px) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 8rem;
+    overflow: hidden;
+    width: 85%;
+    max-width: 128rem;
+
+    h2 {
+      width: 60%;
+      margin-bottom: 0;
+      line-height: 6rem;
+      z-index: 3;
+    }
+    a {
+      z-index: 3;
+    }
+
+    .pattern {
+      height: 100%;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+a.btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+
+  &-dark {
+    border: 0.3rem solid var(--accentDark);
+    color: var(--accentDark);
+
+    &:hover {
+      background-color: var(--accentDark);
+      color: var(--secondaryColor);
+    }
+  }
+
+  &-light {
+    border: 0.3rem solid var(--secondaryColor);
+    color: var(--secondaryColor);
+
+    &:hover {
+      background-color: var(--secondaryColor);
+      color: var(--accentDark);
+    }
+  }
+}
